@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
        
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Hello HELLO from servlet!!!");
+		response.getWriter().append("HELLO HELLO from servlet!!!");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
